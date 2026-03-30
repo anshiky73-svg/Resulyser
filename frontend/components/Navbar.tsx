@@ -25,7 +25,7 @@ export default function Navbar() {
 
             {/* Logo */}
             <h1 className="text-xl font-semibold">
-                Resulyzer
+                Resulyser
             </h1>
 
             {/* Right Side */}
