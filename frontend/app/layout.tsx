@@ -1,3 +1,5 @@
+"use client"
+
 import type { ReactNode } from 'react';
 import Navbar from '@/components/Navbar';
 import './globals.css';
@@ -5,7 +7,6 @@ import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
-
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
